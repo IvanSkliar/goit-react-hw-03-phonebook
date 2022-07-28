@@ -1,0 +1,45 @@
+.form {
+    padding: 10px;
+    border: 3px solid rgb(99, 99, 99);
+    background-image: linear-gradient(to right, rgb(0, 136, 118) 40%, rgb(81, 206, 23));
+    font-style: oblique;
+    
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-size: 15px;
+    font-style: oblique;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+}
+
+.input:hover,
+.input:focus {
+    box-shadow: 0 0 5px 2px #0b0c6e;
+}
+
+.button {
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 15px;
+    font-style: oblique;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #ceee1688;
+}
+
+.button:active {
+    background-color: rgb(230, 255, 86);
+    color: #0b0c6e;
+    border: 1px solid #0b0c6e;
+}

@@ -1,0 +1,21 @@
+.label {
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.input {
+    display: block;
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+    font-style: oblique;
+}
+
+.input:hover,
+.input:focus {
+    box-shadow: 0 0 5px 2px #0b0c6e;
+}

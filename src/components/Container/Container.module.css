@@ -1,0 +1,8 @@
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    background-image: linear-gradient(to right, rgb(0, 136, 118) 40%,rgb(81, 206, 23));
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    border-radius: 7px;
+}
